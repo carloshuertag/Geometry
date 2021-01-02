@@ -55,6 +55,7 @@ public class MyTriangle implements Comparable <MyTriangle>, MyShape<MyTriangle, 
         Math.min(t.getA().getY(), Math.min(t.getB().getY(), t.getC().getY()))),
         new MyPoint(Math.max(t.getA().getX(), Math.max(t.getB().getX(), t.getC().getX())),
         Math.max(t.getA().getY(), Math.max(t.getB().getY(), t.getC().getY()))))) != null){
+            
             return this;
         }
         return null;
