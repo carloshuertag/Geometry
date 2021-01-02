@@ -1,0 +1,2 @@
+# Geometry
+Class aggregation example.
