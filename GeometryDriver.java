@@ -49,7 +49,7 @@ public class GeometryDriver {
                     System.out.println("R1 es mayor que R2");
                     break;
             }
-            System.out.println(X);
+            System.out.println(String.format("El punto %s tiene una distancia con respecto al origen de %f", X, X.distance()));
             if(t1.contains(X))
                 System.out.println(String.format("El punto %s está adentro de %s", X, t1));
             else
